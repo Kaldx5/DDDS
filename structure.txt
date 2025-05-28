@@ -1,0 +1,84 @@
+Folder PATH listing
+Volume serial number is 27BC-1020
+C:.
+¦   829-2008-Test Documentation explineation.pdf
+¦   DDDS_Acceptance_Tests_Report_Khaled_Alrefai.docx
+¦   DDDS_Acceptance_Tests_Report_Khaled_Alrefai.pdf
+¦   DDDS_Acceptance_Test_Report Khaled_Alrefai.docx
+¦   DDDS_face_tracking_demo.py
+¦   digit_live_test.py
+¦   Graduation Project Report T E M P L A T E (1).docx
+¦   main.py
+¦   mnist_model.h5
+¦   SAMPLE Acceptance Test Report (2).doc
+¦   step1_face_eye_detection.py
+¦   step2_drowsiness_detection.py
+¦   step3_alarm.py
+¦   step4_tinyml_integration.py
+¦   stru.py
+¦   structure.txt
+¦   
++---booklet
++---data
++---DDDS-Acceptance-Test-Report
+¦   ¦   .gitattributes
+¦   ¦   banner.png
+¦   ¦   LICENSE
+¦   ¦   README.md
+¦   ¦   
+¦   +---report
+¦   ¦       DDDS_Acceptance_Tests_Report_Khaled_Alrefai.pdf
+¦   ¦       
+¦   +---test-results
+¦           alerting-stage.md
+¦           capture-stage.md
+¦           processing-stage.md
+¦           
++---ddds_main
+¦       alarm.wav
+¦       ddds_master.py
+¦       drowsiness_log.txt
+¦       soundLog.py
+¦       
++---models
+¦       cnn_model.tflite
+¦       detect.tflite
+¦       detect_quant.tflite
+¦       eyes_resnet18_128x128.tflite
+¦       
++---results
++---scripts
+¦   ¦   check.py
+¦   ¦   check_tflite_input.py
+¦   ¦   drowsiness_detector.py
+¦   ¦   EAR.py
+¦   ¦   input_pipeline.py
+¦   ¦   MAR.py
+¦   ¦   tflite_inference.py
+¦   ¦   tflite_simulation.py
+¦   ¦   
+¦   +---__pycache__
+¦           EAR.cpython-38.pyc
+¦           MAR.cpython-38.pyc
+¦           
++---sounds
+¦       alarm.wav
+¦       
++---tests
+¦   ¦   test_lib.py
+¦   ¦   
+¦   +---Stage 1 Capture
+¦       ¦   CAP02.py
+¦       ¦   CAP04.py
+¦       ¦   CAP05.py
+¦       ¦   cnnCat2.h5
+¦       ¦   drowsiness_log.txt
+¦       ¦   PROC01.py
+¦       ¦   PROC01.txt
+¦       ¦   PROC03.py
+¦       ¦   
+¦       +---CAP01 – Camera initializes and streams frames
+¦               CAP01.py
+¦               CAP01.txt
+¦               
++---utils
