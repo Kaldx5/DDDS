@@ -51,7 +51,7 @@ The Driver Drowsiness Detection System (DDDS) detects fatigue symptoms such as p
 
 ## 📸 Screenshots
 
-![State Overlay](DDDS/drowsy.png)  
+![State Overlay](drowsy.png)  
 *EAR/MAR display and drowsy state overlay*
 
 ---
